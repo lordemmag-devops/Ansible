@@ -2,7 +2,7 @@
 
 - name: Install and Start nginx
   hosts: all
-  become: root
+  become: true
 
   tasks: 
     - name: Install nginx
