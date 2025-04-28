@@ -18,4 +18,5 @@
 1. Create a file named 'inventory' and add the ip address of 'target-ubuntu'. Which means if i have 10 target servers i would just include them in the inventory file careated 
 2. ansible -i inventory all -m "shell" -a "touch devopsclass" : This command is meant to create 'devopsclass' files in all target address whose ip address is listed in inventory.
 
-## Playbook command
+## Run the playbook command
+1. ansible-playbook -i inventory first-playbook.yml
