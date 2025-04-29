@@ -1,0 +1,6 @@
+
+
+
+Create 3 Ec2 instances on AWS (Terraform)
+Configure 1 of these Ec2 instances as master (Ansible)
+Configure 2 other ec2 instances as worker (Ansible) 
